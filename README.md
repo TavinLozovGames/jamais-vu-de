@@ -31,6 +31,12 @@ Then create a world with **Jamais Vu** as its system and log in as GM.
 
 > **Requires Foundry VTT v12 or newer.** Verified on v14.
 
+### Recommended modules
+
+None are required — the system works on its own.
+
+- **[Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice)** — Jamais Vu registers a custom dice appearance for it. Rolls look the way they should.
+
 ---
 
 ## What's in the box
@@ -47,6 +53,7 @@ Then create a world with **Jamais Vu** as its system and log in as GM.
 - **Light combat** — no initiative grind; weapons are modifiers, damage is small, the fight is a scene
 - **A narrative character creator** — the "Awakening" text quest
 - **Eight interface languages**, each player picks their own
+- **Stock compendiums** — 120 pieces of gear and 19 thoughts, ready to drag onto a sheet
 
 ---
 
@@ -130,8 +137,7 @@ Six phases of the day — Dawn, Morning, Midday, Evening, Night, Deep Night — 
 ![Add a marker](docs/img/map-add-marker.png)
 *Markers live directly on the Foundry scene. Pick a glyph, drop it, and it lights up when the players find it — or stays dim until they do.*
 
-![World map](docs/img/world-map.png)
-*The whole city at once. Districts, the port, the river — pinned and lit as the investigation spreads.*
+> Jamais Vu gives you the map *tooling* — markers, dossiers, reveal states, quick travel. It doesn't ship maps: drop in any scene image you like and start pinning.
 
 ![Location sheet](docs/img/location-sheet.png)
 *Locations are actors too: art, points on their own map, and transitions to neighbouring places for quick travel.*

@@ -2,6 +2,19 @@
 
 All notable changes to Jamais Vu are listed here. Newest first.
 
+## 1.9.66
+
+**Changed**
+
+- Renamed the system to *Jamais Vu — Detective RPG*. The inspiration is still named in the description; it no longer sits in the package title.
+- Added Dice So Nice to recommended relationships. Nothing is required — the system runs on its own.
+
+**Removed**
+
+- The bundled city map and the scene compendium that used it. The map was made for one specific campaign, and the map *tooling* — markers, dossiers, reveal states, quick travel — works with any scene image you bring.
+
+Nothing in the code changed. Worlds created on 1.9.65 keep working; the scene compendium simply no longer appears. If you already imported the map scene into a world, it stays there untouched.
+
 ## 1.9.65 — First public release
 
 The system as it stands after a long private campaign. Everything below has been played at a real table, not just written.
