@@ -244,7 +244,7 @@ This is a free project made in our spare time. If you want it to keep growing, a
 
 Source code — [MIT License](LICENSE).
 
-Artwork, icons, compendium content and written game text are **not** MIT. They stay with their authors and come with their own terms — free to use at your table, not free to extract and resell. See [LICENSE-ASSETS.md](LICENSE-ASSETS.md).
+Artwork, icons, compendium content and written game text are **not** MIT. They stay with their authors and come with their own terms — free to use at your table, not free to extract and resell. See [ASSET-TERMS.md](ASSET-TERMS.md).
 
 ---
 
