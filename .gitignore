@@ -34,6 +34,14 @@ packs/*/LOCK
 packs/*/LOG
 packs/*/LOG.old
 
+# --- Maps ---
+# Kept out of git on purpose. Large binary, and git history is permanent —
+# release assets can be swapped freely, committed files cannot.
+# The map still ships inside the release zip; this only keeps it out of history.
+# If a map is ever created from scratch by a human and should live in the repo,
+# add an exception below, e.g.:  !maps/harbour-hand-drawn.webp
+maps/
+
 # --- Local working folders (not part of the released system) ---
 design/
 oldVU/
