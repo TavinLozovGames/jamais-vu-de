@@ -1,0 +1,126 @@
+{
+  "id": "jamais-vu",
+  "title": "Jamais Vu — Disco Elysium-style Detective RPG",
+  "description": "Jamais Vu — a detective tabletop RPG system in the spirit of Disco Elysium, by Tavin & Lozov, based on the Jamais Vu homebrew. Full 24-skill sheet, thoughts, the Loop, evidence board and more. Available in 8 languages (EN/RU/UK/CS/DE/FR/ES/PL).",
+  "version": "1.9.65",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Tavin"
+    },
+    {
+      "name": "Lozov"
+    }
+  ],
+  "esmodules": [
+    "jamais-vu.mjs"
+  ],
+  "styles": [
+    "styles/jamais-vu.css",
+    "styles/jamais-vu-ui.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "uk",
+      "name": "Українська",
+      "path": "lang/uk.json"
+    },
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {}
+    },
+    "Item": {
+      "gear": {},
+      "thought": {},
+      "note": {},
+      "quest": {}
+    }
+  },
+  "grid": {
+    "distance": 1,
+    "units": ""
+  },
+  "primaryTokenAttribute": "health",
+  "url": "https://github.com/TavinLozovGames/jamais-vu-de",
+  "manifest": "https://github.com/TavinLozovGames/jamais-vu-de/releases/latest/download/system.json",
+  "download": "https://github.com/TavinLozovGames/jamais-vu-de/releases/download/1.9.65/jamais-vu.zip",
+  "packs": [
+    {
+      "name": "stock-gear",
+      "label": "Jamais Vu — Снаряга / Gear",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "jamais-vu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "stock-thoughts",
+      "label": "Jamais Vu — Мысли / Thoughts",
+      "path": "packs/thoughts",
+      "type": "Item",
+      "system": "jamais-vu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "stock-scenes",
+      "label": "Jamais Vu — Сцены / Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "jamais-vu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "license": "https://github.com/TavinLozovGames/jamais-vu-de/blob/main/LICENSE",
+  "readme": "https://github.com/TavinLozovGames/jamais-vu-de#readme",
+  "bugs": "https://github.com/TavinLozovGames/jamais-vu-de/issues",
+  "changelog": "https://github.com/TavinLozovGames/jamais-vu-de/releases"
+}
