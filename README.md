@@ -219,6 +219,8 @@ Bug reports and feature requests go in [Issues](https://github.com/TavinLozovGam
 
 **Translations** are the easiest way to help. Copy `lang/en.json`, translate the values (leave the keys alone), and open an issue or a pull request. Missing keys fall back to English automatically, so a partial translation is still useful.
 
+Full details, including the house rules for code contributions, are in [CONTRIBUTING.md](CONTRIBUTING.md). Version history is in [CHANGELOG.md](CHANGELOG.md).
+
 ---
 
 ## Credits
@@ -240,9 +242,9 @@ This is a free project made in our spare time. If you want it to keep growing, a
 
 ## License
 
-Code is released under the [MIT License](LICENSE).
+Source code — [MIT License](LICENSE).
 
-Artwork, icons and written game text remain the property of their authors and are licensed for use with this system only — see `LICENSE` for the exact terms.
+Artwork, icons, compendium content and written game text are **not** MIT. They stay with their authors and come with their own terms — free to use at your table, not free to extract and resell. See [LICENSE-ASSETS.md](LICENSE-ASSETS.md).
 
 ---
 

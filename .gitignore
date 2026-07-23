@@ -1,0 +1,40 @@
+# --- Operating system junk ---
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- Python helper scripts' leftovers ---
+__pycache__/
+*.pyc
+
+# --- Release artifacts ---
+# The release zip is attached to a GitHub Release, never committed to the repo.
+*.zip
+
+# --- Foundry compendium internals ---
+# LOCK is created by a running Foundry and must never be committed.
+# LOG / LOG.old are LevelDB's own diagnostic logs — not data, pure noise in diffs.
+# Everything else in packs/ (*.ldb, *.log, CURRENT, MANIFEST-*) IS data. Do not ignore it.
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old
+
+# --- Local working folders (not part of the released system) ---
+design/
+oldVU/
+maps/DE_*
